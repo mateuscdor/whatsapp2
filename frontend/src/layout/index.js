@@ -180,7 +180,7 @@ const LoggedInLayout = ({ children }) => {
         open={drawerOpen}
       >
         <div className={classes.toolbarIcon}>
-          <img src={logo} width={"80%"} style={{ marginLeft: 'auto' ,marginRight:'auto', display:'flex'}} />
+          
           <IconButton onClick={() => setDrawerOpen(!drawerOpen)}>
             <ChevronLeftIcon />
           </IconButton>
@@ -221,7 +221,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            Whatsbusiness Sistema de Whatsapp
+            WhatsBusiness - Demo
             
           </Typography>
 
