@@ -38,7 +38,7 @@ const Copyright = () => {
 			© {new Date().getFullYear()}
 			{" - "}
 			<Link color="inherit" href="#">
-                             {nomeEmpresa} - v {versionSystem}
+                             WhatsBusiness - Sistema de Whatsapp
 			</Link>
 			{"."}
 		</Typography>
